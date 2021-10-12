@@ -103,22 +103,22 @@ Test2a 6550 files -> 13GB (scrambled from time information)
 
 All data can be downlodaed using the following links: 
 
-[Training.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Training.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T145706Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d91993d2e38ba2da13a2bd6d68a7ab8ad1990104d5c0dd005750128bb6381d8e) (4.7 GB)
+[Training.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Training.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211012%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211012T120724Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bebb0feaf7230054ee6f1aae6015071782b66877e61879d6d77ccaf6707ecbb6) (4.7 GB)
 
-[Test.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211008%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211008T153204Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bfeb82b5d4a1590a4a251205be99151c28eb4bd52bc2d5e895f03d4b78505091)
+[Test.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211012%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211012T120724Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=190a2a5d12bcaac4836887b09e31e432f60653acaf1972357383f87064dc70df)
 
 If you find the Test.zip too large to download, you can download separately subsets of the Test dataset using links below:
 
-[Test 1.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T224009Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ec97be5262980d1022665fd7d34f37555ebead1517734846dc38b926fc9d5963)
+[Test 1.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211012%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211012T120724Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=25c8cd5dc4f55df57c3aea7dbb7dfbe17ff5cb581d7abed2b29a2f53023f945f)
 
-[Test 2a.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test2a.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PYQ7KGDWK%2F20211004%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211004T223814Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e4ef0dba1ebe24def6d9d059481b3a3202442b0e6556c2983cc85944ef60e9da)
+[Test 2a.zip](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/Test2a.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211012%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211012T120724Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=927b5859fe3ba5f38a0606623a1d704a5eb80793060b73b9ce84785c47bf8855)
 
 
 
 <br/>
 
 
-We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colony. The measurements for colony segmentation can be downloaded here as csv files: [docs.csv](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/docs_csv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211006%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211006T134814Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f4fa777639caf928e59ac689f0cc4ca68a38a34ec3e37fd1f94be4faf213b461). The Cell Profiler pipeline can be found in this main branch as '2021-09-30 incucyte mask processing v1.0.cpproj' (works on CP version 4.2.0 and above). Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, combined cell profiler features, multidimensional hyperspaces, etc.
+We have done some preliminary colony segmentation using Cell Profiler. We have not segmented further objects inside each colony. The measurements for colony segmentation can be downloaded here as csv files: [docs.csv](https://bitbio-ext-pheno-hackathon.s3.amazonaws.com/docs_csv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQIB6BT2PS6T2VXYB%2F20211012%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211012T120724Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4a29f89fdcb919742435c85e04f3597bb7e1e42a75a6dd22e533c8c95c2cfbb7). The Cell Profiler pipeline can be found in this main branch as '2021-09-30 incucyte mask processing v1.0.cpproj' (works on CP version 4.2.0 and above). Feel free to use any of the parameters as a starting point to analyse colony pluripotency state: colony area, diameter, circularity, cell distances, cell morphology, any of the above, combined cell profiler features, multidimensional hyperspaces, etc.
 
 Thanks to Cytodata and all scientists in our Cellular Phenotyping team for support. The experiments for this dataset were set up and acquired by Sarah Hussain, Stefan Milde, Fiona Connolly at bit.bio using Sartorius Incucyte device. The dataset was organised with the help from Sanaullah Nazir at bit.bio. 
 
